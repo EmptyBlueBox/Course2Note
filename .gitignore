@@ -1,5 +1,14 @@
 # MacOS
 .DS_Store
 
-# Input files
-Input
+# Course files
+Course
+
+# Test files
+test
+
+# Python files
+__pycache__
+
+# Private files
+config_private.toml
