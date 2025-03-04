@@ -19,22 +19,19 @@ git clone git@github.com:EmptyBlueBox/Course2Note.git
 cd Course2Note
 ```
 
-2. Configure the API keys in the `config_private.toml` file.
+2. Configure the `config_private.toml` file.
 
-Copy the `config.toml` file to `config_private.toml` and configure the API keys:
+Copy the `config.toml` file to `config_private.toml` and configure the 2 API keys:
 
+- [OpenAI ChatGPT API](https://platform.openai.com/docs/api-reference/chat) OR [DeepSeek API](https://platform.deepseek.com/api_keys)
 - [XunFei API](https://console.xfyun.cn/services/lfasr)
-- [OpenAI ChatGPT API](https://platform.openai.com/docs/api-reference/chat)
-- [DeepSeek API](https://platform.deepseek.com/api_keys)
-
-Note: You can choose one of the LLM API keys.
 
 Configure the `COURSE_NAME` and `STYLE` in the `config_private.toml` file.
 
 - To generate a note, set `STYLE` to `note`.
-- To generate a cleaned transcripts, set `STYLE` to `cleaner`.
+- To generate a cleaned transcript, set `STYLE` to `cleaner`.
 
-1. Put your course playbacks and slides in the `Input` folder.
+3. Put your course playbacks and slides in the `Input` folder.
 
 The project folder should have the following structure:
 

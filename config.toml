@@ -5,7 +5,7 @@ MODEL = "gpt-4o-mini" # deepseek-chat for DeepSeek
 
 # 讯飞 API
 XUNFEI_APP_ID = "bf3xxxxx"
-XUNFEI_SECRET_KEY = "feb927eb7exxxxxxxxxxxxxxxx"
+XUNFEI_SECRET_KEY = "feb927exxxxxxxxxxxxxxxxxxx"
 
 # 课程名称
 COURSE_NAME = "OS"
