@@ -36,7 +36,6 @@ Configure the `COURSE_NAME` and `STYLE` in the `config_private.toml` file.
 The project folder should have the following structure:
 
 ```bash
-tree
 .
 ├── Course
 │   └── <Course Name>
@@ -52,7 +51,7 @@ tree
 
 4. Install the dependencies.
 
-Create a conda environment and install the python dependencies using the following command:
+Create a conda environment and install the python dependencies:
 
 ```bash
 conda create -n course2note python=3.10
