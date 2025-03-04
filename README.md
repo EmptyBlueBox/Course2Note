@@ -2,7 +2,7 @@
 
 ## Brief
 
-This is a tool to help convert course playbacks and course slides into a comprehensive note or cleaned transcripts.
+A tool that converts course playbacks into comprehensive notes or cleaned transcripts.
 
 ## Features
 
