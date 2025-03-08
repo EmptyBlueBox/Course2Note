@@ -51,7 +51,7 @@ class NoteGenerator:
         """
         self.client = OpenAI(base_url=base_url, api_key=api_key)
 
-    def _chunk_text(self, text: str, max_tokens: int = 50_000) -> List[str]:
+    def _chunk_text(self, text: str, max_tokens: int = 5000) -> List[str]:
         """
         Split text into chunks that fit within token limits.
 
