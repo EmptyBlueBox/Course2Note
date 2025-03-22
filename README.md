@@ -1,5 +1,7 @@
 # Course2Note
 
+1. Update on 2025-03-22: You can try out OpenAI's [gpt-4o-transcribe and gpt-4o-mini-transcribe models](https://platform.openai.com/docs/guides/speech-to-text) as the audio transcription model, however I'm not supporting it now.
+
 ## Brief
 
 A tool that converts course playbacks into comprehensive notes or cleaned transcripts.
