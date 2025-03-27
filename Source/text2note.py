@@ -1,7 +1,8 @@
 import os
-from typing import List
-from openai import OpenAI
 import time
+from typing import List
+
+from openai import OpenAI
 
 note_system_prompt = """您是一名计算机专业的笔记助手，能够根据课程材料帮助大学计算机学生创建结构良好、内容全面的笔记。"""
 note_prompt = """请根据课程材料创建全面且结构良好的笔记，使用 markdown 格式编写笔记，包括适当的标题、项目符号和重点标记。
@@ -29,15 +30,23 @@ cleaner_prompt = """请你将混乱口语化的语音识别文稿整理成书面
                     2. 在适当的地方分段
                     3. 不要输出除了标题和内容之外的任何其他内容, 比如不要输出 `课程主题为操作系统的基本概念和流程。以下是整理后的书面化课程笔记：` 这样的提示词
                     """
+custom_system_prompt = """你是一位擅长整理文字的工作人员，能够将混乱口语化的语音识别文稿整理成书面化的文稿。"""
+custom_prompt = """总结作业要求和相关信息, 越详细越好
+
+                    内容要求：
+                    1. 不要遗漏教授说的**任何**信息, 越细节越详细越好, **不要做任何形式的总结**!!!
+                    """
 
 system_prompt = {
     "note": note_system_prompt,
     "cleaner": cleaner_system_prompt,
+    "custom": custom_system_prompt,
 }
 
 job_prompt = {
     "note": note_prompt,
     "cleaner": cleaner_prompt,
+    "custom": custom_prompt,
 }
 
 

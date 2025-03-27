@@ -1,9 +1,11 @@
 import os
-import toml
 from typing import Dict
-from Source.video2soundtrack import process_course_videos
+
+import toml
+
 from Source.soundtrack2text import process_course_audio
 from Source.text2note import generate_course_notes
+from Source.video2soundtrack import process_course_videos
 
 
 def load_config() -> Dict:
